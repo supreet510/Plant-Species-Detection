@@ -4,7 +4,7 @@
 Plant Species Detection is a deep learning project that identifies plant species from an input image using EfficientNetV2B0, a powerful image classification model.
 The model is wrapped inside a Streamlit web application for an interactive user experience and deployed on AWS.
 
- Live Demo: http://3.27.92.10:8501/
+ 
 
 ## Features
 
@@ -52,11 +52,7 @@ App will start at:
 
 http://localhost:8501/
 
-## Live Deployment
 
-The project is deployed on an AWS EC2 instance.
-You can access it here:
-http://3.27.92.10:8501/
 
 ## Example Output
 
