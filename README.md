@@ -8,7 +8,7 @@ The model is wrapped inside a Streamlit web application for an interactive user 
 
 ## Features
 
- Upload an image of a plant (leaf/flower) for detection.
+ Upload an image of a plant for detection.
 
  Deep learning model based on EfficientNetV2B0 for accurate classification.
 
@@ -58,7 +58,7 @@ http://localhost:8501/
 
 Uploaded Image:
 
-rose_leaf.jpg
+plant.jpg
 
 
 Model Output:
@@ -67,11 +67,9 @@ Model Output:
     Confidence: 98.7%
 
 Model Performance
-    Metric	Value
-    Accuracy	96.4%
-    Precision	95.8%
-    Recall	96.0%
-    F1 Score	95.9%
+   
+    confidence:	96.4%
+    
 
 Author
 
