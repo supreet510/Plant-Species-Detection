@@ -18,7 +18,7 @@ uploaded_file = st.file_uploader("📸 Choose a plant image", type=["jpg", "jpeg
 
 if uploaded_file:
     image = Image.open(uploaded_file)
-    st.image(image, caption="Uploaded Image", use_container_width=True)
+    st.image(image, caption="Uploaded Image",width=300)
 
     if st.button("🔍 Predict"):
         with st.spinner("Analyzing image..."):

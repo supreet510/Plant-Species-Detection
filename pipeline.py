@@ -6,7 +6,8 @@ import numpy as np
 
 class PlantPredictor:
     def __init__(self, model_path="plant_species_model.keras", class_file="class_names.txt"):
-        self.model = keras.models.load_model(model_path)
+        self.model = keras.models.load_model(model_path, compile=False)
+
         with open(class_file, "r") as f:
             self.class_names = [line.strip() for line in f.readlines()]
 
@@ -15,7 +16,7 @@ class PlantPredictor:
         img = image.resize((256, 256))
         img_array = tf.keras.preprocessing.image.img_to_array(img)
         img_array = np.expand_dims(img_array, axis=0)
-        # ❌ Do NOT divide by 255.0 (model trained without normalization)
+       
         return img_array
 
     def predict(self, image: Image.Image):
