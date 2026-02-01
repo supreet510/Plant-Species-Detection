@@ -1,0 +1,11 @@
+[project]
+name = "plant-species-detection"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=2.2.6",
+    "streamlit>=1.50.0",
+    "tensorflow>=2.20.0",
+]
