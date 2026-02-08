@@ -1,6 +1,6 @@
 #  Plant Species Detection using Deep Learning
 
-Plant Species Detection is a deep learning project that identifies plant species from an uploaded image. The project uses a fine-tuned **EfficientNetV2B0** model and provides an interactive web interface built with **Streamlit**. The application can be deployed locally or on cloud platforms such as **AWS EC2**.
+Plant Species Detection is a deep learning project that identifies plant species from an uploaded image. The project uses a fine-tuned **EfficientNetV2B0** model and provides an interactive web interface built with **Streamlit**. The application can be deployed locally and on cloud platforms such as **AWS EC2**.
 
 ---
 ## Live Link
@@ -32,7 +32,7 @@ https://tinyurl.com/48kpzk2k
 - **Deep Learning Framework:** TensorFlow / Keras  
 - **Model Architecture:** EfficientNetV2B0  
 - **Frontend:** Streamlit  
-- **Libraries:** NumPy, Pandas, Matplotlib, scikit-learn  
+- **Libraries:** NumPy, Pandas, Matplotlib
 - **Deployment:** AWS EC2  
 
 ---
@@ -60,7 +60,7 @@ Plant-Species-Detection/
 ##  How It Works
 
 1. User uploads an image through the Streamlit web interface.
-2. The image is preprocessed (resized and normalized).
+2. The image is preprocessed (resized).
 3. The trained EfficientNetV2B0 model predicts the plant species.
 4. The predicted class name and confidence score are displayed to the user.
 
