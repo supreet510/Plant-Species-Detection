@@ -15,7 +15,7 @@ class PlantPredictor:
         img = image.resize((256, 256))
         img_array = tf.keras.preprocessing.image.img_to_array(img)
         img_array = np.expand_dims(img_array, axis=0)
-        # ❌ Do NOT divide by 255.0 (model trained without normalization)
+     
         return img_array
 
     def predict(self, image: Image.Image):
