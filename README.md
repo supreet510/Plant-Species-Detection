@@ -32,7 +32,7 @@ https://tinyurl.com/48kpzk2k
 - **Deep Learning Framework:** TensorFlow / Keras  
 - **Model Architecture:** EfficientNetV2B0  
 - **Frontend:** Streamlit  
-- **Libraries:** NumPy, Pandas, Matplotlib
+- **Libraries:** NumPy, Matplotlib
 - **Deployment:** AWS EC2  
 
 ---
