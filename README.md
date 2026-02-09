@@ -73,7 +73,7 @@ Plant-Species-Detection/
 ```bash
 git clone https://github.com/supreet510/Plant-Species-Detection.git
 cd Plant-Species-Detection
- Create a virtual environment (optional but recommended)
+ Create a virtual environment 
 python -m venv venv
 source venv/bin/activate     # Linux/Mac
 venv\Scripts\activate        # Windows
